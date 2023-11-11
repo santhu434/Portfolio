@@ -1,0 +1,39 @@
+.experiencecontainer{
+    display:flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: 200px 0;
+    align-items: center;
+    padding-top: 140px;
+}
+.experiencecontainer h1{
+    padding-bottom:20px;
+}
+.experiencecontainer_info{
+    background:url('../../assets/expBG.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    z-index: 1000px;
+    width: 80vw;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.9);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media (max-width: 420px) {
+    .experiencecontainer {
+        margin: 80px 0; /* Adjust margin for smaller screens */
+        padding-top: 100px; /* Adjust padding for smaller screens */
+    }
+
+    .experiencecontainer_info {
+        height: 400px; /* Adjust height for smaller screens */
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300&display=swap');
+.skillcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 130px 0;
+    padding-top: 100px;
+  
+}
+.skillcontainer_text{
+    color: white;
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px ;
+}
+.skillcontainer_text>h2{
+    font-size: 30px;
+}
+.skillcontainer_image{
+    flex: 0.4;
+    text-align: center;
+    margin-right: 100px;
+}
+.skillcontainer_image>img{
+    width: 600px;
+    border-radius: 3px;
+    object-fit: contain;
+}
+.skillcontainer_skillset>h5{
+    font-family: "Montserrat",sans-serif;
+    font-size: 300;
+    padding-bottom:15px;
+    padding-top: 10px;
+}
+.skillcontainer_slider>.MuiLinearProgress-colorPrimary{
+    background-color: rgb(88,88,88) ;
+} 
+.skillcontainer_slider1 .MuiLinearProgress-barColorPrimary {
+    background-color: tomato;
+}
+.skillcontainer_slider2 .MuiLinearProgress-barColorPrimary {
+    background-color: v;
+}
+.skillcontainer_slider3 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(156, 26,3);
+}
+.skillcontainer_slider4 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(255,145,0);
+}
+.skillcontainer_slider5 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(228,213,0);
+}
+.skillcontainer_slider6 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(136,146,0);
+}
+.skillcontainer_slider7 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(8, 189, 68);
+}
+.skillcontainer_slider8 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(61, 32, 190);;
+}
+.skillcontainer_slider9 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(3, 108, 156);
+}
+.skillcontainer_slider10 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(214, 202, 199);
+}
+.skillcontainer_slider11 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(124, 25, 63);
+}
+
+
+
+@media (max-width: 420px) {
+    @import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300&display=swap');
+
+.skillcontainer {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0; /* Adjusted margin for smaller screens */
+    padding-top: 50px; /* Adjusted padding for smaller screens */
+}
+
+.skillcontainer_text {
+    color: white;
+    text-align: center; /* Center text on smaller screens */
+    margin-bottom: 20px;
+}
+
+.skillcontainer_text > h2 {
+    font-size: 24px; /* Adjusted font size for smaller screens */
+}
+    .skillcontainer {
+        margin: 10px 0;
+        padding-top: 30px;
+    }
+
+    .skillcontainer_text {
+        max-width: 100%;
+    }
+
+    .skillcontainer_image > img {
+        width: 100%;
+        max-width: 300px; /* Set a maximum width for the image on smaller screens */
+        margin-left: 56px;
+    }
+
+    .skillcontainer_skillset > h5 {
+        font-size: 16px;
+    }
+
+    /* Add more adjustments as needed */
+}
