@@ -21,19 +21,19 @@ function Skillcontainer() {
       <div className='skillcontainer_skillset'>
          <h5>NodeJS</h5>
          <div className='skillcontainer_slider skillcontainer_slider2'>
-         <LinearProgress variant='determinate' value={90}/>
+         <LinearProgress variant='determinate' value={80}/>
          </div>
       </div>
       <div className='skillcontainer_skillset'>
          <h5>ExpressJS</h5>
          <div className='skillcontainer_slider skillcontainer_slider3'>
-         <LinearProgress variant='determinate' value={70}/>
+         <LinearProgress variant='determinate' value={75}/>
          </div>
       </div>
       <div className='skillcontainer_skillset'>
          <h5>MongoDB</h5>
          <div className='skillcontainer_slider skillcontainer_slider4'>
-         <LinearProgress variant='determinate' value={90}/>
+         <LinearProgress variant='determinate' value={75}/>
          </div>
       </div>
       <div className='skillcontainer_skillset'>
@@ -51,7 +51,7 @@ function Skillcontainer() {
       <div className='skillcontainer_skillset'>
          <h5>HTML-5</h5>
          <div className='skillcontainer_slider skillcontainer_slider7'>
-         <LinearProgress variant='determinate' value={90}/>
+         <LinearProgress variant='determinate' value={95}/>
          </div>
       </div>
       <div className='skillcontainer_skillset'>
@@ -69,13 +69,13 @@ function Skillcontainer() {
       <div className='skillcontainer_skillset'>
          <h5>Material UI</h5>
          <div className='skillcontainer_slider skillcontainer_slider10'>
-         <LinearProgress variant='determinate' value={90}/>
+         <LinearProgress variant='determinate' value={80}/>
          </div>
       </div>
       <div className='skillcontainer_skillset'>
          <h5>Tailwind</h5>
          <div className='skillcontainer_slider skillcontainer_slider11'>
-         <LinearProgress variant='determinate' value={90}/>
+         <LinearProgress variant='determinate' value={80}/>
          </div>
       </div>
     </div>

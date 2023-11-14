@@ -78,8 +78,12 @@
     }
     .header_right > a > h4,
     .header_rightButton {
-        padding: 10px 0;
-        font-size: 12px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: transform 200ms ease-in-out;
+        font-family: "Crimson Text", serif;
+        padding: 8px 5px;
+        letter-spacing: 1px;
     }
     
 }

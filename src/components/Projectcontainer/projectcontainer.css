@@ -19,16 +19,24 @@
     margin: 0 20px;
 }
 .projectcontainer_project{
+    margin-left: 12px;
     display: flex;
     width: 80vw;
     flex-wrap: wrap;    
 }
+
 @media screen and (max-width: 420px) {
     .projectcontainer {
         margin-top: 20px;
     }
+    .projectcontainer>p{
+        margin-top: 20px;
+        margin-right: 5px;
+        font-size: 15px;
+    }
 
     .projectcontainer_project {
         width: 100%;
+
     }
 }
