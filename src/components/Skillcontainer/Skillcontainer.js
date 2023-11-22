@@ -11,7 +11,7 @@ function Skillcontainer() {
         <img src={skillimg} alt="" />
     </div>
     <div className='skillcontainer_text'>
-      <h2>SKILLSET</h2>
+      <h1>SKILLSET</h1>
       <div className='skillcontainer_skillset'>
          <h5>React</h5>
          <div className='skillcontainer_slider skillcontainer_slider1'>

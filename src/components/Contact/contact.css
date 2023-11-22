@@ -23,7 +23,11 @@
     padding-bottom: 30px;
 }
 .contact_container>p>span{
+    color: white;
+}
+.mail{
     color: #f64c08;
+    text-decoration: underline;
 }
 .contact_icons>a>button>span>.MuiSvgIcon-root{
     color: white;
@@ -38,13 +42,15 @@
     }
 
     .contact_container {
-        width: 80%; /* Adjust as needed for responsiveness */
+        width: 73%; /* Adjust as needed for responsiveness */
         margin-top: 10px;
         height: 150px;
+        padding: 0px;
     }
 
     .contact_container > p {
         font-size: 16px;
+        padding-bottom: 5px;
     }
 
     .contact_icons > a > button > span > .MuiSvgIcon-root {

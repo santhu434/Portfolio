@@ -5,7 +5,7 @@ import './experiencecontainer.css'
 const Experiencecontainer = () => {
   return (
     <Element className='experiencecontainer' id='exp'>
-     <h1>Experience</h1>
+     <h1>EXPERIENCE</h1>
      <div className='experiencecontainer_info'>
         <Experience number='March 2023- Present' title='Mallow Technologies' role='React Developer'/>
         <Experience number='Nov 2022-Jan 2023' title='Awerum software solutions' role='Internship'/>

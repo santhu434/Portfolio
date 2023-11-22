@@ -34,13 +34,9 @@
     display:none
 }
 @media screen and (max-width: 420px) {
-    .project {
-        width: 100%; /* Make the width 100% for smaller screens */
-        margin: 10px; /* Adjust margin for smaller screens */
-    }
-
+  
     .project:hover {
-        transform: none; /* Remove scaling on hover for smaller screens */
+        transform: none; 
     }
     .Carousel{
         display:block;
@@ -48,8 +44,7 @@
     }
     img{
         width: 350px;
-        height: 179px;
-        
+        height: 179px;  
     }
     .images{
         display: none;

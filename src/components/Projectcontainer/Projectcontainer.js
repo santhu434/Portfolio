@@ -3,11 +3,9 @@ import  ShoppApp from '../../assets/ShoppingApp.jpg'
 import  SocialApp from '../../assets/socialApp.jpg'
 import  Amazon from '../../assets/Amazon.jpg'
 import  Pizza from '../../assets/Pizza.png'
-import  todo from '../../assets/todo.jpg'
 import Project from '../Project/Project'
 import { Element } from 'react-scroll'
 import './projectcontainer.css'
-import { Carousel } from 'antd';
 
 
 
@@ -38,19 +36,12 @@ function Projectcontainer() {
             desc:'React,Redux,Redux Saga Middleware,RestAPI',
             link:''
         },
-        {
-            img:todo,
-            title:'Grocery Todolist App',
-            desc:'React,Redux,MockAPI',
-            link:''
-        },
-
     ]
   return (
     <Element className='projectcontainer' id='project'>
-        <h1>Projects</h1>
-        <p>Here are some projects which I done for making lives of people easy</p>
-        <h3 className='click'>Touch To Open</h3>
+        <h1>PROJECTS</h1>
+        <p className='click'>Touch To Open</p>
+        <p>Here are some projects which I done for making lives for the people easy</p>
         <div className='projectcontainer_project'>      
     {
      

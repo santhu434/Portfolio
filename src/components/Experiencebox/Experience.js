@@ -5,7 +5,7 @@ function Experience({number,title,role,style}) {
     <div style={{...style}} className='experience'>
      <h1>{role}</h1>
      <p>{title}</p>
-     <h1>{number}</h1>
+     <p>{number}</p>
     </div>
   )
 }

@@ -6,9 +6,7 @@
     flex-direction: column;
     color: white;
     justify-content: center;
-    margin-top: 200px;
     align-items: center;
-    padding-top: 100px;
 
 }
 .projectcontainer> h1{
@@ -24,6 +22,9 @@
     width: 80vw;
     flex-wrap: wrap;    
 }
+.click{
+    display: none;
+}
 
 @media screen and (max-width: 420px) {
     .projectcontainer {
@@ -31,12 +32,14 @@
     }
     .projectcontainer>p{
         margin-top: 20px;
-        margin-right: 5px;
         font-size: 15px;
     }
-
     .projectcontainer_project {
         width: 100%;
+        margin:0;
 
+    }
+    .click{
+        display: block;
     }
 }

@@ -67,9 +67,14 @@
     .header {
         display: flex;
         flex-direction: column;
+        
     }
     .header_left > h1 {
         padding: 10px 0;
+        text-align: center;
+        font-family: "Alata", sans-serif;
+        letter-spacing: 1px;
+        font-size: 22px;
     }
     .header_right {
         width: 100%;
@@ -84,6 +89,10 @@
         font-family: "Crimson Text", serif;
         padding: 8px 5px;
         letter-spacing: 1px;
+    }
+    .header_right > a > h4:hover{
+        font-size: 15px;
+        padding: 3px 8px;
     }
     
 }

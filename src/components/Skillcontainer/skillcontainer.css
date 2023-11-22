@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 130px 0;
     padding-top: 100px;
   
 }
@@ -92,6 +91,7 @@
 
 .skillcontainer_text > h2 {
     font-size: 24px; /* Adjusted font size for smaller screens */
+    margin-bottom: 15px;
 }
     .skillcontainer {
         margin: 10px 0;
