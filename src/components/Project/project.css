@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .project >img{
     width: 350px;
     height: 179px;
@@ -34,7 +38,9 @@
     display:none
 }
 @media screen and (max-width: 420px) {
-  
+    .project>img{
+        margin: 0px;
+    }
     .project:hover {
         transform: none; 
     }
@@ -42,14 +48,14 @@
         display:block;
         margin-top: 10px;
     }
-    img{
-        width: 350px;
-        height: 179px;  
-    }
     .images{
         display: none;
     }
-
+    a{
+        text-decoration: none;
+        color: white;
+        margin: auto;
+    }
     
 }
 
