@@ -7,7 +7,7 @@ function Topcontent() {
      <div className='topcontent_container'>
       <h1>Santhosh.R</h1>
       <p>A professional Web Developer</p>
-      <a href="Professional CV Santhosh.pdf">
+      <a href="Santhosh Professional CV.pdf">
         <button className='topcontent_dawnloadButton'>Dawnload CV</button>
       </a>
       <Link to='project' smooth={true} duration={500}>

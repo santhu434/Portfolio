@@ -61,10 +61,8 @@
     .topcontent_container {
         position:absolute;
         top: 220px;
-        right: 10px;
-        
+        right: 10px;   
     }
-
     .topcontent_container > p {
         font-size: 12px;
         text-align: center;
