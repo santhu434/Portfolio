@@ -19,61 +19,61 @@ function Skillcontainer() {
          </div>
       </div>
       <div className='skillcontainer_skillset'>
-         <h5>Flutter</h5>
+         <h5>Core Java</h5>
          <div className='skillcontainer_slider skillcontainer_slider2'>
          <LinearProgress variant='determinate' value={80}/>
          </div>
       </div>
       <div className='skillcontainer_skillset'>
-         <h5>NodeJs</h5>
+         <h5>Flutter</h5>
          <div className='skillcontainer_slider skillcontainer_slider3'>
          <LinearProgress variant='determinate' value={75}/>
          </div>
       </div>
       <div className='skillcontainer_skillset'>
-         <h5>SQL</h5>
+         <h5>NodeJs</h5>
          <div className='skillcontainer_slider skillcontainer_slider4'>
          <LinearProgress variant='determinate' value={75}/>
          </div>
       </div>
       <div className='skillcontainer_skillset'>
-         <h5>RestAPI</h5>
+         <h5>SQL</h5>
          <div className='skillcontainer_slider skillcontainer_slider5'>
          <LinearProgress variant='determinate' value={90}/>
          </div>
       </div>
       <div className='skillcontainer_skillset'>
-         <h5>Javascript</h5>
+         <h5>RestAPI</h5>
          <div className='skillcontainer_slider skillcontainer_slider6'>
          <LinearProgress variant='determinate' value={90}/>
          </div>
       </div>
       <div className='skillcontainer_skillset'>
-      <h5>Material UI</h5>
+      <h5>Javascript</h5>
          <div className='skillcontainer_slider skillcontainer_slider7'>
          <LinearProgress variant='determinate' value={95}/>
          </div>
       </div>
       <div className='skillcontainer_skillset'>
-      <h5>React Ant Design</h5>
+      <h5>Material UI</h5>
          <div className='skillcontainer_slider skillcontainer_slider8'>
          <LinearProgress variant='determinate' value={90}/>
          </div>
       </div>
       <div className='skillcontainer_skillset'>
-      <h5>Tailwind</h5>
+      <h5>React Ant Design</h5>
          <div className='skillcontainer_slider skillcontainer_slider9'>
          <LinearProgress variant='determinate' value={90}/>
          </div>
       </div>
       <div className='skillcontainer_skillset'>
-         <h5>HTML-5</h5>
+         <h5>Tailwind</h5>
          <div className='skillcontainer_slider skillcontainer_slider10'>
          <LinearProgress variant='determinate' value={80}/>
          </div>
       </div>
       <div className='skillcontainer_skillset'>
-         <h5>CSS</h5>
+         <h5>HTML-5,CSS</h5>
          <div className='skillcontainer_slider skillcontainer_slider11'>
          <LinearProgress variant='determinate' value={80}/>
          </div>
