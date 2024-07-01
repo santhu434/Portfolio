@@ -6,7 +6,7 @@ import  Pizza from '../../assets/Pizza.png'
 import Project from '../Project/Project'
 import { Element } from 'react-scroll'
 import './projectcontainer.css'
-
+import { Carousel } from 'antd'
 
 
 
@@ -37,12 +37,21 @@ function Projectcontainer() {
             link:''
         },
     ]
+
+    const contentStyle = {
+        height: '160px',
+        color: '#fff',
+        lineHeight: '160px',
+        textAlign: 'center',
+        background: '#364d79',
+      };
   return (
     <Element className='projectcontainer' id='project'>
         <h1>PROJECTS</h1>
         <p className='click'>Touch To Open</p>
         <p>Here are some projects which I done for making lives for the people easy</p>
         <div className='projectcontainer_project'>      
+        <Carousel autoplay>
     {
      
         projects.map((project,index)=>{
@@ -51,7 +60,8 @@ function Projectcontainer() {
             )
             })
     }
-        </div>
+         </Carousel>
+         </div>
     </Element>
   )
 }

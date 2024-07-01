@@ -2,12 +2,18 @@
 
 
 .projectcontainer{
-    display: flex;
+     display: flex;
     flex-direction: column;
     color: white;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    color: white;
+    margin-top: 50px;
 
+}
+.ant-carousel .slick-dots-bottom{
+    position: relative;
+    top: 30px;
 }
 .projectcontainer> h1{
     padding-bottom: 15px;
@@ -17,10 +23,13 @@
     margin: 0 20px;
 }
 .projectcontainer_project{
-    margin-left: 12px;
+    width:80%;
+    height: 400px;
+    margin: auto;
+    /* margin-left: 12px;
     display: flex;
     width: 80vw;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;     */
 }
 .click{
     display: none;

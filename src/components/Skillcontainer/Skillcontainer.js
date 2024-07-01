@@ -3,84 +3,105 @@ import { Element } from 'react-scroll'
 import skillimg from '../../assets/skills.jpg'
 import LinearProgress from '@mui/material/LinearProgress';
 import './skillcontainer.css'
-
+import './pulse.css'
 function Skillcontainer() {
-  return (
-    <Element className='skillcontainer' id='skills'>
-    <div className='skillcontainer_image'>
-        <img src={skillimg} alt="" />
-    </div>
-    <div className='skillcontainer_text'>
-      <h1>SKILLSET</h1>
-      <div className='skillcontainer_skillset'>
-         <h5>React</h5>
-         <div className='skillcontainer_slider skillcontainer_slider1'>
-         <LinearProgress variant='determinate' value={90}/>
-         </div>
-      </div>
-      <div className='skillcontainer_skillset'>
-         <h5>Core Java</h5>
-         <div className='skillcontainer_slider skillcontainer_slider2'>
-         <LinearProgress variant='determinate' value={80}/>
-         </div>
-      </div>
-      <div className='skillcontainer_skillset'>
-         <h5>Flutter</h5>
-         <div className='skillcontainer_slider skillcontainer_slider3'>
-         <LinearProgress variant='determinate' value={75}/>
-         </div>
-      </div>
-      <div className='skillcontainer_skillset'>
-         <h5>NodeJs</h5>
-         <div className='skillcontainer_slider skillcontainer_slider4'>
-         <LinearProgress variant='determinate' value={75}/>
-         </div>
-      </div>
-      <div className='skillcontainer_skillset'>
-         <h5>SQL</h5>
-         <div className='skillcontainer_slider skillcontainer_slider5'>
-         <LinearProgress variant='determinate' value={90}/>
-         </div>
-      </div>
-      <div className='skillcontainer_skillset'>
-         <h5>RestAPI</h5>
-         <div className='skillcontainer_slider skillcontainer_slider6'>
-         <LinearProgress variant='determinate' value={90}/>
-         </div>
-      </div>
-      <div className='skillcontainer_skillset'>
-      <h5>Javascript</h5>
-         <div className='skillcontainer_slider skillcontainer_slider7'>
-         <LinearProgress variant='determinate' value={95}/>
-         </div>
-      </div>
-      <div className='skillcontainer_skillset'>
-      <h5>Material UI</h5>
-         <div className='skillcontainer_slider skillcontainer_slider8'>
-         <LinearProgress variant='determinate' value={90}/>
-         </div>
-      </div>
-      <div className='skillcontainer_skillset'>
-      <h5>React Ant Design</h5>
-         <div className='skillcontainer_slider skillcontainer_slider9'>
-         <LinearProgress variant='determinate' value={90}/>
-         </div>
-      </div>
-      <div className='skillcontainer_skillset'>
-         <h5>Tailwind</h5>
-         <div className='skillcontainer_slider skillcontainer_slider10'>
-         <LinearProgress variant='determinate' value={80}/>
-         </div>
-      </div>
-      <div className='skillcontainer_skillset'>
-         <h5>HTML-5,CSS</h5>
-         <div className='skillcontainer_slider skillcontainer_slider11'>
-         <LinearProgress variant='determinate' value={80}/>
-         </div>
-      </div>
-    </div>
-    </Element>
-  )
-} 
+   return (
+      <><div className="sectionskilltitle">
+         <h2>Skills</h2>
+         <span className="headerskillLine"></span>
+      </div><Element className='skillcontainer' id='skills'>
+            <div class="skill-bars">
+               <div class="bar">
+                  <div class="info">
+                     <span>ReactJs</span>
+                  </div>
+                  <div class="progress-line html">
+                     <span></span>
+                  </div>
+               </div>
+               <div class="bar">
+                  <div class="info">
+                     <span>Redux,Redux Toolkit</span>
+                  </div>
+                  <div class="progress-line html">
+                     <span></span>
+                  </div>
+               </div>
+               <div class="bar">
+                  <div class="info">
+                     <span>NextJs</span>
+                  </div>
+                  <div class="progress-line css">
+                     <span></span>
+                  </div>
+               </div>
+               <div class="bar">
+                  <div class="info">
+                     <span>Typescript</span>
+                  </div>
+                  <div class="progress-line jquery">
+                     <span></span>
+                  </div>
+               </div>
+               <div class="bar">
+                  <div class="info">
+                     <span>Javascript</span>
+                  </div>
+                  <div class="progress-line python">
+                     <span></span>
+                  </div>
+               </div>
+               <div class="bar">
+                  <div class="info">
+                     <span>Node</span>
+                  </div>
+                  <div class="progress-line mysql">
+                     <span></span>
+                  </div>
+               </div>
+               <div class="bar">
+                  <div class="info">
+                     <span>Restfull API</span>
+                  </div>
+                  <div class="progress-line html">
+                     <span></span>
+                  </div>
+               </div>
+               <div class="bar">
+                  <div class="info">
+                     <span>Material UI</span>
+                  </div>
+                  <div class="progress-line css">
+                     <span></span>
+                  </div>
+               </div>
+               <div class="bar">
+                  <div class="info">
+                     <span>Ant Design</span>
+                  </div>
+                  <div class="progress-line jquery">
+                     <span></span>
+                  </div>
+               </div>
+               <div class="bar">
+                  <div class="info">
+                     <span>Tailwind</span>
+                  </div>
+                  <div class="progress-line python">
+                     <span></span>
+                  </div>
+               </div>
+               <div class="bar">
+                  <div class="info">
+                     <span>Shadcn</span>
+                  </div>
+                  <div class="progress-line mysql">
+                     <span></span>
+                  </div>
+               </div>
+            </div>
+         </Element></>
+   )
+}
 
 export default Skillcontainer
