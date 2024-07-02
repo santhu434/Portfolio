@@ -95,7 +95,8 @@
     margin-bottom: 15px;
 }
     .skillcontainer {
-        margin: 10px 0;
+        width: 80%;
+        margin: auto;
         padding-top: 30px;
     }
 

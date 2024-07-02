@@ -159,7 +159,7 @@ width: 500px;
 
   .skill-bars {
     padding: 20px;
-    width: 100%;
+    width: 80%;
     margin: auto;
     flex-direction: column;
     gap: 15px;
@@ -170,6 +170,6 @@ width: 500px;
   }
 
   .skill-bars .bar .info span {
-    font-size: 15px;
+    font-size: 12px;
   }
 }

@@ -30,6 +30,7 @@ const ExperienceContainer = () => {
                 <p className="projectParagraph">
                   Project:Pasubot(Product)<br></br>
                   Domains: Front End – React, Database –Supabase Config<br></br>
+                  <br></br>
                   {/* <div class="click_container">
                     <span data-title="Click" class="text">
                     Click
@@ -38,6 +39,7 @@ const ExperienceContainer = () => {
                   </div> */}
                   Project:RSL(Client Dubai Service team)<br></br>
                   Domains:  Front End – React, Database – MongoDB<br></br>
+                  <br></br>
                   {/* <div class="click_container">
                     <span data-title="Click" class="text">
                     Click
