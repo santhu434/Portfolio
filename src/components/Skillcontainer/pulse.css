@@ -172,4 +172,7 @@ width: 500px;
   .skill-bars .bar .info span {
     font-size: 12px;
   }
+  .skill-bars .bar .progress-line{
+    height: 5px;
+  }
 }
