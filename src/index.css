@@ -18,4 +18,8 @@ a{
   h1{
     font-size: 18px;
   }
+  .banner{
+    height: 500px;
+  }
+
 }

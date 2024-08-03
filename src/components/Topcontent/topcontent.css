@@ -73,6 +73,9 @@
 }
 
 @media only screen and (max-width: 420px) {
+    .topcontent{
+        position: relative;
+    }
     .topcontent_container {
         position: absolute;
         top: 220px;
@@ -102,8 +105,12 @@
         padding: 8px 20px;
         margin: 0;
     }
-
+    .topcontent .image_profile{
+        position: absolute;
+        top: 155px;
+    }
     .topcontent .image_profile img {
-        width: 100vw;
+        width: 100%;
+        height: 100%;
     }
 }
