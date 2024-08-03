@@ -27,7 +27,7 @@ function Topcontent() {
 
   return (
     <div className='topcontent'>
-      <div className='image_profile'  style={{ height: '100vh' }}>
+      <div className='image_profile'>
         <img src={profile} alt='Profile' />
       </div>
       <div className='topcontent_container'>

@@ -1,85 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300&display=swap');
-.topcontent{
-     color: white;
-     position: relative;
+
+.topcontent {
+    color: white;
+    position: relative;
 }
-.topcontent_container{
+
+.topcontent_container {
     position: absolute;
     top: 300px;
     right: 150px;
 }
-.topcontent_container>p{
+
+.topcontent_container>p {
     letter-spacing: 1px;
     text-align: left;
-    padding-left:3px;
+    padding-left: 3px;
     padding-top: 20px;
 }
-.topcontent_container>a>button{
+
+.topcontent_container>a>button {
     margin-top: 30px;
     text-align: left;
     margin-left: 5px;
     border: none;
     border-radius: 2px;
-    outline: none;  
+    outline: none;
 }
-.topcontent_container > h1{
+
+.topcontent_container>h1 {
     font-size: 50px;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-.topcontent_dawnloadButton{
+
+.topcontent_dawnloadButton {
     color: white;
-    background-color: #004d40; 
+    background-color: #004d40;
     font-size: 14px;
     padding: 10px 30px;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     cursor: pointer;
     margin-right: 20px;
 }
-.topcontent_dawnloadButton:hover{
-    color:#f64c08;
+
+.topcontent_dawnloadButton:hover {
+    color: #f64c08;
     background-color: white;
     font-weight: 600;
-     
+
 }
-.topcontent_workButton{
+
+.topcontent_workButton {
     color: white;
     border: 1px solid white !important;
     background-color: transparent;
     font-size: 14px;
     padding: 9px 45px;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     cursor: pointer;
 }
-.topcontent_workButton:hover{
+
+.topcontent_workButton:hover {
     color: black;
     background-color: white;
-    font-weight: 600 ;
+    font-weight: 600;
 }
-.topcontent .image_profile img{
-width: auto;
-height: 100vh;
+
+.topcontent .image_profile img {
+    width: auto;
+    height: 100vh;
 }
+
 @media only screen and (max-width: 420px) {
     .topcontent_container {
-        position:absolute;
+        position: absolute;
         top: 220px;
-        right: 10px;   
+        right: 10px;
     }
-    .topcontent_container > p {
+
+    .topcontent_container>p {
         font-size: 12px;
         text-align: center;
     }
 
 
-    .topcontent_container > a > button {
+    .topcontent_container>a>button {
         margin-top: 20px;
         text-align: center;
         /* margin-left: 0; */
     }
 
-    .topcontent_container > h1 {
+    .topcontent_container>h1 {
         font-size: 30px;
         text-align: center;
     }
@@ -90,8 +102,8 @@ height: 100vh;
         padding: 8px 20px;
         margin: 0;
     }
-    .topcontent .image_profile img{
+
+    .topcontent .image_profile img {
         width: 100vw;
-        height: 100vh;
-        }
+    }
 }
