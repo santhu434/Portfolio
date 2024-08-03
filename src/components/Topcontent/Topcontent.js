@@ -27,8 +27,8 @@ function Topcontent() {
 
   return (
     <div className='topcontent'>
-      <div style={{ height: '100vh' }}>
-        <img src={profile} alt='Profile' style={{ height: '100%', width: 'auto' }} />
+      <div className='image_profile'  style={{ height: '100vh' }}>
+        <img src={profile} alt='Profile' />
       </div>
       <div className='topcontent_container'>
         <div id='animate-text'></div>
