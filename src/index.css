@@ -11,6 +11,9 @@ a{
   text-decoration: none;
   color: white;
 }
+.banner{
+  background-image: linear-gradient(to right top, #110e0e, #4c2522, #893e2a, #c35e27, #f68708);
+}
 @media only screen and (max-width: 420px) {
   h1{
     font-size: 18px;

@@ -3,28 +3,33 @@ import {Link} from 'react-scroll'
 import './header.css'
 function Header() {
   return (
-    <div className='header'>
-        <div className='header_left'>  
-            <h1>Develop<span>er</span></h1>
-        </div>
-        <div className='header_right'>
-            <Link to='about' smooth={true} duration={500}>
-            <h4>About Me</h4>
-            </Link>
-            <Link to='skills' smooth={true} duration={500}>
-            <h4>Skills</h4>
-            </Link>
-            <Link to='project' smooth={true} duration={500}>
-            <h4>Project</h4>
-            </Link>
-            <Link to='exp' smooth={true} duration={500}>
-            <h4>Experience</h4>
-            </Link>
-            <Link to='contact' smooth={true} duration={500}>
-            <h4>Contact</h4>
-            </Link>    
-        </div>
+  <>
+  <header class="header">
+  <nav>
+    <div class="logo">
+      <a href="index.html">Develop<span>er</span></a>
     </div>
+    <input type="checkbox" id="menu-toggle"/>
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <ul class="menu">
+    <Link to='about' smooth={true} duration={500}>
+      <li><a>About Me</a></li>
+    </Link>
+      <Link to='exp' smooth={true} duration={500}>
+      <li><a>Experience</a></li>
+      </Link>
+      <Link to='project' smooth={true} duration={500}>
+      <li><a>Projects</a></li>
+      </Link>
+      <Link to='skills' smooth={true} duration={500}>
+      <li><a>Skills</a></li>
+      </Link>
+      <Link to='contact' smooth={true} duration={500}>
+      <li><a>Contact</a></li>
+      </Link>
+    </ul>
+  </nav>
+</header></>
   )
 }
 

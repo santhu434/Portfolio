@@ -9,8 +9,10 @@ import Work from "./components/Work/Work";
 function App() {
   return (
     <div className="App">
+       <div className="banner">
        <Header/>
        <Topcontainer/>
+       </div>
        <Skillcontainer/>
        {/* <Projectcontainer/> */}
        <Experiencecontainer/>

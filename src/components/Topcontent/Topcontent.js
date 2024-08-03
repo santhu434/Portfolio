@@ -1,26 +1,46 @@
-import React from 'react'
-import { Link } from 'react-scroll'
-import './topcontent.css'
-import './cvbutton.css'
+import React, { useEffect } from 'react';
+import { Link } from 'react-scroll';
+import './topcontent.css';
+import './cvbutton.css';
+import profile from '../../assets/profile2.png';
+import Typewriter from 'typewriter-effect/dist/core';
+
 function Topcontent() {
+  useEffect(() => {
+    var app = document.getElementById('animate-text');
+
+    var typewriter = new Typewriter(app, {
+      loop: true,
+    });
+
+    typewriter
+      .typeString('Santhosh.R')
+      .pauseFor(2500)
+      .deleteAll()
+      .typeString('Web Developer')
+      .pauseFor(2500)
+      .deleteAll()
+      .typeString('<strong>FrontEnd Developer</strong>')
+      .pauseFor(2500)
+      .start();
+  }, []);
+
   return (
     <div className='topcontent'>
+      <div style={{ height: '100vh' }}>
+        <img src={profile} alt='Profile' style={{ height: '100%', width: 'auto' }} />
+      </div>
       <div className='topcontent_container'>
-        <div class="container">
-          <span data-title=" Santhosh.R" class="text">
-            Santhosh.R
-          </span>
-        </div>
-        <p>A professional Web Developer</p>
-        <a href="Santhosh Professional CV.pdf">
-          <button className='topcontent_dawnloadButton'>Dawnload CV</button>
+        <div id='animate-text'></div>
+        <a href='Santhosh Professional CV.pdf'>
+          <button className='topcontent_dawnloadButton'>Download CV</button>
         </a>
         <Link to='project' smooth={true} duration={500}>
           <button className='topcontent_workButton'>My Work</button>
         </Link>
       </div>
     </div>
-  )
+  );
 }
 
-export default Topcontent
+export default Topcontent;
