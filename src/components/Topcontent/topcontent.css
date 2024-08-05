@@ -95,11 +95,11 @@
       .topcontent_container>a>button{
         text-align: center;
       }
-      /* .topcontent .image_profile{
-        display: none;
-      } */
+      .topcontent .image_profile{
+        height: 100%;
+      }
     .topcontent .image_profile img {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 }

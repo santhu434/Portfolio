@@ -5,13 +5,8 @@
 }
 
 
-/* @media (max-width: 420px) {
+@media (max-width: 420px) {
     .topcontainer {
-        margin-top: 10px;
-        background: url('../../assets/profile2.png');
-        height: 420px;
-        background-position: center;
-        background-repeat: no-repeat;
-        box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+        height:fit-content
      }
-} */
+}
