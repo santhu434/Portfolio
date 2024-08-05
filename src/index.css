@@ -18,7 +18,7 @@ a{
   h1{
     font-size: 18px;
   }
-  .banner{
-    height:764px;
-  }
+  /* .banner{
+    height:100vh;
+  } */
 }
