@@ -78,12 +78,13 @@
         display: flex;
         flex-direction: column-reverse;
         align-items: center; 
-        gap: 20px;
+        height: 100vh;
       }
       
       .topcontent_container {
         position: static; 
         text-align: center;
+        padding-bottom: 20px;
       }
       
       .topcontent_dawnloadButton, .topcontent_workButton {
@@ -93,11 +94,11 @@
       .topcontent_container>a>button{
         text-align: center;
       }
-      .topcontent .image_profile{
+      /* .topcontent .image_profile{
         display: none;
-      }
-    /* .topcontent .image_profile img {
+      } */
+    .topcontent .image_profile img {
         width: 100%;
-        height: 100vh;
-    } */
+        height: auto;
+    }
 }
