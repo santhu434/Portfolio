@@ -68,8 +68,9 @@
 }
 
 .topcontent .image_profile img {
-    width: auto;
+    width: 100%;
     height: 100vh;
+    max-width: 100vw;
 }
 
 @media only screen and (max-width: 420px) {
