@@ -79,6 +79,7 @@
         flex-direction: column-reverse;
         align-items: center; 
         height: 100vh;
+        justify-content: space-between;
       }
       
       .topcontent_container {
