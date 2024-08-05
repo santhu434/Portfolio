@@ -31,21 +31,9 @@ const ExperienceContainer = () => {
                   Project:Pasubot(Product)<br></br>
                   Domains: Front End – React, Database –Supabase Config<br></br>
                   <br></br>
-                  {/* <div class="click_container">
-                    <span data-title="Click" class="text">
-                    Click
-                    </span>
-                    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF8xnsqiqfHuxPLLcgalu5_4V9c0zuc2_VyA&s' />
-                  </div> */}
                   Project:RSL(Client Dubai Service team)<br></br>
                   Domains:  Front End – React, Database – MongoDB<br></br>
                   <br></br>
-                  {/* <div class="click_container">
-                    <span data-title="Click" class="text">
-                    Click
-                    </span>
-                    <img src='https://admin.royalsmartlifestyle.com/assets/illustrations/logo-dark_rsl.svg' />
-                  </div> */}
                   Project:Warehouse Management System(Client: Bosch Service Team)<br></br>
                   Domains: Front End – React, Database – MongoDB
                 </p>
