@@ -1,0 +1,112 @@
+.banner-container{
+    display: flex;
+}
+.banner-container img{
+    height:100vh;
+}
+#animate-text{
+    text-align:center;
+    font-size:32px;
+    /* background-image: linear-gradient(
+      -225deg,
+      #1c1c1e 0%,
+      #3f3f3f 29%,
+      #f7f4f4 67%,
+      #f2f2f0 100%
+    ); */
+    background-color: white;
+    background-clip:border-box;
+     text-fill-color: transparent;
+    background-clip:text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+  }
+  .topcontent_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .topcontent_container>a>button {
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+.topcontent_container>h1 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.topcontent_dawnloadButton {
+    color: white;
+    background-color: #004d40;
+    font-size: 14px;
+    padding: 10px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.topcontent_dawnloadButton:hover {
+    color: #f64c08;
+    background-color: white;
+    font-weight: 600;
+
+}
+
+.topcontent_workButton {
+    color: white;
+    border: 1px solid white !important;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 9px 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.topcontent_workButton:hover {
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}
+
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+
+  @media only screen and (max-width: 420px){
+    .banner-container{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .topcontent_dawnloadButton, .topcontent_workButton {
+        width: 100%; 
+
+      }
+      .topcontent_container>a>button{
+        text-align: center;
+      }
+      .topcontent_workButton{
+        margin-top: 20px;
+      }
+    #animate-text{
+      /* margin-top: 80px; */
+      font-size: 18px;
+    }
+  }
+  
+  

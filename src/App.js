@@ -1,4 +1,5 @@
-import Header from "./components/Header/Header";
+import Header from "./components/Header";
+import Banner from "./components/Banner"
 import Topcontainer from "./components/Topcontainer/Topcontainer";
 import Skillcontainer from "./components/Skillcontainer/Skillcontainer";
 import Projectcontainer from "./components/Projectcontainer/Projectcontainer";
@@ -11,7 +12,7 @@ function App() {
     <div className="App">
        <div className="banner">
        <Header/>
-       <Topcontainer/>
+       <Banner/>
        </div>
        <Skillcontainer/>
        {/* <Projectcontainer/> */}
